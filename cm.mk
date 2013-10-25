@@ -8,11 +8,11 @@ PRODUCT_RELEASE_NAME := fx3
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/lge/fx3/device_fx3.mk)
+$(call inherit-product, device/lge/fx3s/device_fx3s.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := fx3
-PRODUCT_NAME := cm_fx3
-PRODUCT_BRAND := lge
-PRODUCT_MODEL := fx3
-PRODUCT_MANUFACTURER := lge
+PRODUCT_DEVICE := fx3s
+PRODUCT_NAME := cm_fx3s
+PRODUCT_BRAND := VirginMobile
+PRODUCT_MODEL := VM720
+PRODUCT_MANUFACTURER := LGE
